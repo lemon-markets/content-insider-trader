@@ -4,7 +4,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-tickers_scores.csv
+transactions.csv
 
 # C extensions
 *.so
