@@ -34,9 +34,8 @@ MARKET_URL=https://data.lemon.markets/v1/
 API_KEY=<your-api-key>
 OPENFIGI_URL=https://api.openfigi.com/v3/search/
 OPENFIGI_KEY=<your-open-figi-key>
-SPACE_ID=<your-space-id>
 ```
-Please provide your unique `API_KEY`, `OPENFIGI_KEY` and `SPACE_ID`.
+Please provide your unique `API_KEY` and `OPENFIGI_KEY`.
 
 ## ❓ What's happening under the hood?
 ### 📊 Collecting Data

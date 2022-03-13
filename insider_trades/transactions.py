@@ -26,9 +26,6 @@ class Transactions:
         buy = set()
         sell = set()
 
-        # https://www.investopedia.com/articles/02/121002.asp <- rules for following insider trading
-
-        # directors know less about a company's outlook than executives
         trusted_relationships = ["CEO", "CFO", "COO", "CTO"]
 
         for index, row in self._df.iterrows():
@@ -46,9 +43,6 @@ class Transactions:
                 if row["Number of Shares"] / row["Total Shares"] > 0.01:  # trade >1% of total shares
                     sell.add(row["isin"])
                     print(f'Sell {row["gm_ticker"]}.')
-
-                # potential improvements: check if more than one insider is buying/selling, one trade not very
-                # imformative, several are more informative; refine dates more
 
         return buy, sell
 
