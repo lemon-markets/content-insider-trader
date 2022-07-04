@@ -1,112 +1,101 @@
 ,Ticker,Owner,Relationship,Date,Transaction,Cost,Number of Shares,Value ($),Total Shares,Publish Date,gm_ticker
-0,CCB,EDWARDS JOEL G,Chief Financial Officer,Jan 14,Option Exercise,4.25,4000.0,17000.0,40218.0,Jan 14 09:39 PM,CCB
-2,INDT,"CCP SBS GP, LLC",10% Owner,Jan 12,Buy,79.98,5813.0,464942.0,506821.0,Jan 14 09:21 PM,I1M
-4,BMRN,BIENAIME JEAN JACQUES,Chief Executive Officer,Jan 13,Option Exercise,37.46,5000.0,187300.0,308789.0,Jan 14 08:45 PM,BM8
-5,BMRN,BIENAIME JEAN JACQUES,Chief Executive Officer,Jan 12,Option Exercise,37.46,5000.0,187300.0,308789.0,Jan 14 08:45 PM,BM8
-6,BMRN,BIENAIME JEAN JACQUES,Chief Executive Officer,Jan 12,Sale,89.0,5000.0,445000.0,303789.0,Jan 14 08:45 PM,BM8
-7,BMRN,BIENAIME JEAN JACQUES,Chief Executive Officer,Jan 13,Sale,87.86,5000.0,439300.0,303789.0,Jan 14 08:45 PM,BM8
-14,SURF,Goater Jeff,Director,Jul 21,Sale,6.1,127778.0,779446.0,129222.0,Jan 14 08:30 PM,QSOA
-15,SURF,FEES JESSICA,Chief Financial Officer,Jul 21,Sale,6.1,19854.0,121109.0,79329.0,Jan 14 08:30 PM,QSOA
-16,SURF,Palombella Vito J.,Chief Scientific Officer,Jul 21,Sale,6.1,26325.0,160582.0,53675.0,Jan 14 08:30 PM,QSOA
-17,SURF,ROSS ROBERT W.,Chief Executive Officer,Jul 21,Sale,6.1,33500.0,204350.0,54500.0,Jan 14 08:30 PM,QSOA
-18,SURF,Nogelo Liisa I,Chief Legal Officer,Jul 21,Sale,6.1,26325.0,160582.0,53675.0,Jan 14 08:30 PM,QSOA
-19,SURF,ONEILL ALISON,Chief Medical Officer,Jul 21,Sale,6.1,14809.0,90335.0,30191.0,Jan 14 08:30 PM,QSOA
-34,DIS,McCarthy Christine M,SEVP & Chief Financial Officer,Jan 12,Option Exercise,38.75,10000.0,387500.0,175707.0,Jan 14 08:00 PM,WDP
-35,DIS,McCarthy Christine M,SEVP & Chief Financial Officer,Jan 13,Option Exercise,38.75,10000.0,387500.0,175707.0,Jan 14 08:00 PM,WDP
-36,DIS,McCarthy Christine M,SEVP & Chief Financial Officer,Jan 14,Option Exercise,38.75,10000.0,387500.0,175707.0,Jan 14 08:00 PM,WDP
-37,DIS,McCarthy Christine M,SEVP & Chief Financial Officer,Jan 14,Sale,152.06,10000.0,1520600.0,165707.0,Jan 14 08:00 PM,WDP
-38,DIS,McCarthy Christine M,SEVP & Chief Financial Officer,Jan 13,Sale,158.0,10000.0,1580000.0,165707.0,Jan 14 08:00 PM,WDP
-39,DIS,McCarthy Christine M,SEVP & Chief Financial Officer,Jan 12,Sale,158.6,10000.0,1586000.0,165707.0,Jan 14 08:00 PM,WDP
-49,CRM,Benioff Marc,Chairman and Co-CEO,Jan 13,Option Exercise,80.99,2300.0,186277.0,28920541.0,Jan 14 07:39 PM,FOO
-50,CRM,Benioff Marc,Chairman and Co-CEO,Jan 13,Sale,231.88,2300.0,533328.0,28918241.0,Jan 14 07:39 PM,FOO
-51,FNKO,Dellomo Gino,Director,Jan 12,Sale,18.29,128923.0,2358002.0,0.0,Jan 14 07:23 PM,FU2
-52,FNKO,Dellomo Gino,Director,Jan 13,Sale,18.52,95947.0,1776938.0,0.0,Jan 14 07:23 PM,FU2
-53,FNKO,"ACON Equity GenPar, L.L.C.",Director,Jan 12,Sale,18.29,128923.0,2358002.0,0.0,Jan 14 07:22 PM,FU2
-54,FNKO,"ACON Equity GenPar, L.L.C.",Director,Jan 13,Sale,18.52,95947.0,1776938.0,0.0,Jan 14 07:22 PM,FU2
-55,FNKO,Brotman Kenneth R.,Director,Jan 12,Sale,18.29,128923.0,2358002.0,0.0,Jan 14 07:21 PM,FU2
-56,FNKO,Brotman Kenneth R.,Director,Jan 13,Sale,18.52,95947.0,1776938.0,0.0,Jan 14 07:21 PM,FU2
-57,FNKO,Kriger Adam M.,Director,Jan 12,Sale,18.29,128923.0,2358002.0,0.0,Jan 14 07:20 PM,FU2
-58,FNKO,Kriger Adam M.,Director,Jan 13,Sale,18.52,95947.0,1776938.0,0.0,Jan 14 07:20 PM,FU2
-59,EW,Szyman Catherine M.,"CVP, Critical Care",Jan 14,Option Exercise,21.76,10000.0,217600.0,37415.0,Jan 14 07:16 PM,EWL
-60,EW,Szyman Catherine M.,"CVP, Critical Care",Jan 14,Sale,119.53,10000.0,1195263.0,27415.0,Jan 14 07:16 PM,EWL
-62,MU,BHATIA MANISH H,"EVP, Global Operations",Jan 14,Sale,96.02,97107.0,9324214.0,213099.0,Jan 14 07:07 PM,MTE
-63,LC,ARMSTRONG ANNIE,Chief Risk Officer,Jan 12,Sale,25.37,369.0,9362.0,70720.0,Jan 14 07:06 PM,HJUE
-64,SILK,Buchanan Lucas W.,COO/CFO,Jan 12,Option Exercise,1.6,5000.0,8000.0,184997.0,Jan 14 07:04 PM,2OW
-65,QS,Prinz Fritz,Director,Jan 12,Sale,21.08,155600.0,3280127.0,187760.0,Jan 14 07:00 PM,LM53
-71,DENN,WOLFINGER F MARK,President,Jan 12,Option Exercise,0.0,8134.0,0.0,818894.0,Jan 14 06:53 PM,DE8
-72,DENN,Verostek Robert P.,EVP and CFO,Jan 12,Option Exercise,0.0,4396.0,0.0,26436.0,Jan 14 06:52 PM,DE8
-73,DENN,Myers Gail Sharps,"EVP, CLO, CPO and Secretary",Jan 12,Option Exercise,0.0,3870.0,0.0,3870.0,Jan 14 06:52 PM,DE8
-74,DENN,MILLER JOHN C,Chief Executive Officer,Jan 12,Option Exercise,0.0,22433.0,0.0,796937.0,Jan 14 06:52 PM,DE8
-75,DENN,Gilmore Jay C,"Sr. VP, CAO & Corp. Controller",Jan 12,Option Exercise,0.0,2425.0,0.0,86779.0,Jan 14 06:51 PM,DE8
-76,DENN,Furlow Michael L.,"EVP, Chief Information Officer",Jan 12,Option Exercise,0.0,2934.0,0.0,42416.0,Jan 14 06:51 PM,DE8
-77,DENN,Dunn Stephen C.,"EVP, Chief Global Dev. Ofc.",Jan 12,Option Exercise,0.0,3096.0,0.0,81659.0,Jan 14 06:51 PM,DE8
-78,DENN,Dillon John William,EVP and Chief Brand Officer,Jan 12,Option Exercise,0.0,4143.0,0.0,88182.0,Jan 14 06:50 PM,DE8
-79,DENN,Bode Christopher D,"EVP, Chief Operating Officer",Jan 12,Option Exercise,0.0,4143.0,0.0,59259.0,Jan 14 06:50 PM,DE8
-88,HZNP,Walbert Timothy P,"Chairman, President and CEO",Jan 14,Option Exercise,22.14,25000.0,553500.0,699222.0,Jan 14 06:44 PM,HPR
-89,HZNP,Walbert Timothy P,"Chairman, President and CEO",Jan 14,Sale,90.02,25000.0,2250412.0,674222.0,Jan 14 06:44 PM,HPR
-92,SMTC,Silberstein Asaf,EVP,Jan 14,Sale,80.5,1000.0,80500.0,51173.0,Jan 14 06:35 PM,SM2
-95,DK,"Delek US Holdings, Inc.",Director,Jan 12,Sale,42.82,7009.0,300091.0,34626710.0,Jan 14 06:20 PM,DEH
-96,DK,"Delek US Holdings, Inc.",Director,Jan 13,Sale,42.28,13514.0,571311.0,34613196.0,Jan 14 06:20 PM,DEH
-97,DK,"Delek US Holdings, Inc.",Director,Jan 14,Sale,41.79,6862.0,286734.0,34606334.0,Jan 14 06:20 PM,DEH
-99,PFSI,SPECTOR DAVID,Chairman & CEO,Jan 13,Sale,69.52,15000.0,1042813.0,676337.0,Jan 14 06:17 PM,1AC
-100,VYGR,Burek Julie,"VP, Finance",Jan 03,Sale,2.83,3063.0,8668.0,46522.0,Jan 14 06:14 PM,VT6
-101,VYGR,Burek Julie,"VP, Finance",Jan 12,Sale,3.06,265.0,811.0,46257.0,Jan 14 06:14 PM,VT6
-105,ASO,HICKS KEN C,"Chairman, President and CEO",Jan 14,Buy,38.91,20000.0,778200.0,440820.0,Jan 14 06:07 PM,28W0
-107,IRBT,Angle Colin M,Chief Executive Officer,Jan 13,Option Exercise,34.3,23200.0,795760.0,319582.0,Jan 14 06:04 PM,I8R
-108,IRBT,Angle Colin M,Chief Executive Officer,Jan 13,Sale,70.04,23200.0,1624951.0,296382.0,Jan 14 06:04 PM,I8R
-109,RPM,Moore Edward W.,"SVP, GC & CCO",Jan 12,Option Exercise,62.69,25000.0,1567300.0,79934.0,Jan 14 06:00 PM,RP8
-110,RPM,Moore Edward W.,"SVP, GC & CCO",Jan 13,Sale,91.91,5565.0,511479.0,54934.0,Jan 14 06:00 PM,RP8
-112,BF-A,Whiting Lawson E,President & CEO,Jan 13,Option Exercise,22.72,20044.0,455480.0,31676.0,Jan 14 05:57 PM,BF5A
-113,RPM,Whited Elizabeth F,Director,Jan 12,Buy,92.09,600.0,55254.0,600.0,Jan 14 05:56 PM,RP8
-114,AVTX,"ARMISTICE CAPITAL, LLC",Director,Jan 12,Buy,1.04,57300.0,59781.0,45702300.0,Jan 14 05:49 PM,27V
-115,AVTX,"ARMISTICE CAPITAL, LLC",Director,Jan 13,Buy,1.0,312700.0,314013.0,46015000.0,Jan 14 05:49 PM,27V
-116,AVTX,"ARMISTICE CAPITAL, LLC",Director,Jan 14,Buy,0.93,85000.0,78974.0,46100000.0,Jan 14 05:49 PM,27V
-117,ZIVO,Maggiore Christopher D.,Director,Jan 11,Buy,2.64,7560.0,19956.0,711771.0,Jan 14 05:48 PM,9R8
-118,AMC,COX CHRIS A,SVP & CHIEF ACCOUNTING OFFICER,Jan 12,Sale,22.97,20000.0,459400.0,991.0,Jan 14 05:45 PM,AMC
-119,S,Warner Nicholas,Chief Operating Officer,Jan 12,Sale,50.01,24058.0,1203196.0,1176.0,Jan 14 05:42 PM,HRT
-122,S,Bernhardt David J.,Chief Financial Officer,Jan 12,Sale,47.89,4810.0,230371.0,401.0,Jan 14 05:40 PM,HRT
-123,S,Weingarten Tomer,"President, CEO",Jan 12,Sale,50.0,1000.0,50003.0,0.0,Jan 14 05:39 PM,HRT
-124,PED,Clark Moore,Executive VP,Jan 13,Sale,1.18,30000.0,35538.0,345000.0,Jan 14 05:31 PM,HR6PED
-125,PED,PINKSTON PAUL ANTHONY,CAO and PFO and AO,Jan 13,Sale,1.19,9000.0,10679.0,231000.0,Jan 14 05:31 PM,HR6PED
-126,PED,Schick John Douglas,President,Jan 13,Sale,1.18,21600.0,25572.0,358733.0,Jan 14 05:31 PM,HR6PED
-128,AMC,MCDONALD JOHN D,"EVP, US OPERATIONS",Jan 12,Sale,22.95,75000.0,1720950.0,32692.0,Jan 14 05:28 PM,AMC
-131,CBU,Knauss Jeffery J,Director,Jan 07,Buy,77.27,250.0,19318.0,264.0,Jan 14 05:14 PM,HR2CBU
-132,TRTN,O'Callaghan John F.,Executive Vice President,Jan 12,Sale,65.0,7000.0,455000.0,102901.0,Jan 14 05:12 PM,TR7
-133,DDOG,Pomel Olivier,Chief Executive Officer,Jan 12,Sale,148.28,145472.0,21570864.0,241666.0,Jan 14 05:10 PM,3QD
-134,NEM,Gottesfeld Stephen P,EVP and Chief S&EA Officer,Jan 12,Sale,61.02,4000.0,244080.0,77140.0,Jan 14 05:08 PM,NEM
-135,MQY,KALINOSKI MICHAEL,Portfolio Manager,Jan 12,Buy,15.61,1000.0,15606.0,5248.0,Jan 14 05:05 PM,TR7MQY
-139,PLAB,KIRLIN PETER S,Chief Executive Officer,Jan 13,Option Exercise,11.35,100.0,1135.0,451339.0,Jan 14 05:02 PM,PQ2
-140,PLAB,KIRLIN PETER S,Chief Executive Officer,Jan 12,Option Exercise,11.35,270.0,3064.0,451439.0,Jan 14 05:02 PM,PQ2
-141,PLAB,KIRLIN PETER S,Chief Executive Officer,Jan 12,Sale,19.41,270.0,5240.0,451239.0,Jan 14 05:02 PM,PQ2
-142,PLAB,KIRLIN PETER S,Chief Executive Officer,Jan 13,Sale,19.39,100.0,1940.0,451239.0,Jan 14 05:02 PM,PQ2
-147,PINS,Flores Christine,General Counsel,Jan 12,Sale,35.0,27225.0,952875.0,294872.0,Jan 14 05:01 PM,2U9
-148,LIND,Lindblad Sven-Olof,Director,Jan 13,Sale,18.52,2750.0,50933.0,12213999.0,Jan 14 05:00 PM,LI4
-149,LIND,Lindblad Sven-Olof,Director,Jan 14,Sale,18.52,7097.0,131434.0,12206902.0,Jan 14 05:00 PM,LI4
-157,YORW,NEWCOMER ROBERT P,Director,Jan 14,Buy,46.45,26.0,1226.0,6314.0,Jan 14 04:54 PM,YWA
-162,YORW,Rasmussen Steven R,Director,Jan 14,Buy,46.45,12.0,551.0,2839.0,Jan 14 04:48 PM,YWA
-167,NXST,SOOK PERRY A,Chief Executive Officer,Jan 13,Option Exercise,9.6,248506.0,2385658.0,548605.0,Jan 14 04:45 PM,NXZ
-168,NXST,SOOK PERRY A,Chief Executive Officer,Jan 13,Sale,170.34,248506.0,42330512.0,328176.0,Jan 14 04:45 PM,NXZ
-172,YORW,Waters Ernest J,Director,Jan 14,Buy,46.45,6.0,261.0,2442.0,Jan 14 04:41 PM,YWA
-174,DKS,Hayes John Edward III,"SVP, General Counsel",Jan 12,Option Exercise,38.27,800.0,30616.0,57360.0,Jan 14 04:35 PM,DSG
-175,DKS,Hayes John Edward III,"SVP, General Counsel",Jan 12,Sale,114.28,800.0,91424.0,56560.0,Jan 14 04:35 PM,DSG
-176,DKS,Gupta Navdeep,"EVP, Chief Financial Officer",Jan 12,Sale,114.56,4700.0,538423.0,109394.0,Jan 14 04:34 PM,DSG
-177,ZTR,Cogan Sarah E,Director,Jan 13,Buy,9.59,2200.0,21098.0,2200.0,Jan 14 04:34 PM,HR8ZTR
-178,YORW,McGlaughlin Erin C,Director,Jan 14,Buy,46.45,6.0,296.0,1524.0,Jan 14 04:33 PM,YWA
-180,TXG,CRUTCHFIELD BRADFORD,Chief Commercial Officer,Jan 12,Option Exercise,1.16,17000.0,19720.0,114653.0,Jan 14 04:32 PM,TXG
-181,TXG,CRUTCHFIELD BRADFORD,Chief Commercial Officer,Jan 12,Sale,119.0,17000.0,2023019.0,97653.0,Jan 14 04:32 PM,TXG
-182,VLDR,Hamer Andrew,CFO and Treasurer,Jan 12,Sale,4.33,4928.0,21338.0,124431.0,Jan 14 04:32 PM,808
-183,JEF,Weiler Melissa,Director,Jan 13,Buy,37.49,4000.0,149946.0,8000.0,Jan 14 04:31 PM,LN3
-185,NDAQ,SKULE JEREMY,Executive Vice President,Jan 13,Sale,193.35,865.0,167248.0,13729.0,Jan 14 04:30 PM,NAQ
-186,ZI,Carlyle Group Inc.,10% Owner,Jan 12,Sale,57.72,19814.0,1143705.0,44241982.0,Jan 14 04:30 PM,4ZI
-187,ZI,CG Subsidiary Holdings L.L.C.,10% Owner,Jan 12,Sale,57.72,19814.0,1143705.0,44241982.0,Jan 14 04:30 PM,4ZI
-188,SAFE,ISTAR INC.,10% Owner,Jan 14,Buy,70.01,7140.0,499871.0,36658718.0,Jan 14 04:26 PM,OR9A
-189,AMC,COLANERO STEPHEN A,EVP & CHIEF MARKETING OFFICER,Jan 13,Sale,22.65,50588.0,1145818.0,0.0,Jan 14 04:22 PM,AMC
-191,DD,Weaver Leland,"President, Water & Protection",Jan 13,Option Exercise,80.07,2183.0,174793.0,17279.0,Jan 14 04:21 PM,6D81
-192,DD,Weaver Leland,"President, Water & Protection",Jan 13,Sale,84.0,2183.0,183372.0,15096.0,Jan 14 04:21 PM,6D81
-193,ZUO,Traube Robert J.,Chief Revenue Officer,Jan 12,Sale,16.93,9131.0,154570.0,18068.0,Jan 14 04:21 PM,ZUO
-194,MRNA,Bancel Stephane,Chief Executive Officer,Jan 12,Sale,220.01,9000.0,1980090.0,5766535.0,Jan 14 04:20 PM,0QF
-195,MRNA,Bancel Stephane,Chief Executive Officer,Jan 13,Sale,219.56,10000.0,2195600.0,7064880.0,Jan 14 04:20 PM,0QF
-196,MASS,Basarsky Trent A.,"VP, Corporate Development",Jan 12,Option Exercise,1.75,15000.0,26250.0,60000.0,Jan 14 04:20 PM,HAZ
-197,MASS,Basarsky Trent A.,"VP, Corporate Development",Jan 12,Sale,19.43,15000.0,291410.0,45000.0,Jan 14 04:20 PM,HAZ
-198,AMJ,Pinto Daniel E,"President & COO, CEO CIB",Jan 13,Option Exercise,0.0,42150.0,0.0,602694.0,Jan 14 04:18 PM,HR8AMJ
-199,AMJ,Beer Lori A,Chief Information Officer,Jan 13,Option Exercise,0.0,16696.0,0.0,33444.0,Jan 14 04:17 PM,HR8AMJ
+9,BRK-A,BERKSHIRE HATHAWAY INC,10% Owner,Jun 29,Buy,59.08,2135265.0,126160211.0,155643500.0,Jul 01 09:14 PM,BRH
+10,BRK-A,BERKSHIRE HATHAWAY INC,10% Owner,Jun 30,Buy,58.62,2906229.0,170349032.0,158549729.0,Jul 01 09:14 PM,BRH
+11,BRK-A,BERKSHIRE HATHAWAY INC,10% Owner,Jul 01,Buy,59.01,4845546.0,285940198.0,163395275.0,Jul 01 09:14 PM,BRH
+12,BRK-B,BERKSHIRE HATHAWAY INC,10% Owner,Jun 29,Buy,59.08,2135265.0,126160211.0,155643500.0,Jul 01 09:14 PM,BRYN
+13,BRK-B,BERKSHIRE HATHAWAY INC,10% Owner,Jun 30,Buy,58.62,2906229.0,170349032.0,158549729.0,Jul 01 09:14 PM,BRYN
+14,BRK-B,BERKSHIRE HATHAWAY INC,10% Owner,Jul 01,Buy,59.01,4845546.0,285940198.0,163395275.0,Jul 01 09:14 PM,BRYN
+15,OXY,BERKSHIRE HATHAWAY INC,10% Owner,Jun 29,Buy,59.08,2135265.0,126160211.0,155643500.0,Jul 01 09:14 PM,OPC
+16,OXY,BERKSHIRE HATHAWAY INC,10% Owner,Jun 30,Buy,58.62,2906229.0,170349032.0,158549729.0,Jul 01 09:14 PM,OPC
+17,OXY,BERKSHIRE HATHAWAY INC,10% Owner,Jul 01,Buy,59.01,4845546.0,285940198.0,163395275.0,Jul 01 09:14 PM,OPC
+18,CAPR,Musket David B,Director,Jun 30,Option Exercise,1.39,10796.0,15006.0,23543.0,Jul 01 09:00 PM,4LN2
+19,CAPR,Musket David B,Director,Jun 29,Sale,3.77,28215.0,106371.0,12747.0,Jul 01 09:00 PM,4LN2
+21,MPAA,Mirvis Jeffrey P,Director,Jun 29,Option Exercise,6.64,3000.0,19920.0,9618.0,Jul 01 08:57 PM,54M
+22,MULN,Michery David,"CEO, President",Jun 29,Sale,1.12,350000.0,391965.0,7411066.0,Jul 01 08:53 PM,1N5
+23,LSCC,Jensen Mark Edwin,Director,Jul 01,Option Exercise,5.03,9000.0,45270.0,106841.0,Jul 01 08:22 PM,LTT
+24,LSCC,Jensen Mark Edwin,Director,Jul 01,Sale,47.73,9000.0,429589.0,97841.0,Jul 01 08:22 PM,LTT
+26,GOOG,RAGHAVAN PRABHAKAR,Senior Vice President,Jul 01,Sale,2166.74,1109.0,2402915.0,1608.0,Jul 01 07:52 PM,ABEC
+27,GOOGL,RAGHAVAN PRABHAKAR,Senior Vice President,Jul 01,Sale,2166.74,1109.0,2402915.0,1608.0,Jul 01 07:52 PM,ABEA
+29,SCWX,Gagnon Neil,10% Owner,Jun 29,Buy,10.87,6185.0,67229.0,365379.0,Jul 01 07:37 PM,07S
+30,SCWX,Gagnon Neil,10% Owner,Jun 29,Buy,10.87,3815.0,41468.0,98091.0,Jul 01 07:37 PM,07S
+31,SCWX,Gagnon Neil,10% Owner,Jun 30,Buy,10.89,4241.0,46201.0,369620.0,Jul 01 07:37 PM,07S
+32,SCWX,Gagnon Neil,10% Owner,Jun 30,Buy,10.89,3329.0,36265.0,101420.0,Jul 01 07:37 PM,07S
+33,EVRI,TAYLOR RANDY L,President & CEO,Jul 01,Option Exercise,0.0,694.0,0.0,350356.0,Jul 01 07:32 PM,G2C
+34,MRNA,AFEYAN NOUBAR,Director,Jun 29,Sale,140.47,10000.0,1404700.0,2517209.0,Jul 01 07:30 PM,0QF
+37,GOOG,O'Toole Amie Thuener,"VP, Chief Accounting Officer",Jul 01,Sale,2166.74,42.0,91003.0,1192.0,Jul 01 07:02 PM,ABEC
+38,GOOGL,O'Toole Amie Thuener,"VP, Chief Accounting Officer",Jul 01,Sale,2166.74,42.0,91003.0,1192.0,Jul 01 07:02 PM,ABEA
+44,NN,Presutti Timothy M.,10% Owner,Jun 29,Buy,1.96,250000.0,490775.0,12166433.0,Jul 01 06:47 PM,2NN
+45,NN,Presutti Timothy M.,10% Owner,Jun 30,Buy,2.16,109254.0,235650.0,12275687.0,Jul 01 06:47 PM,2NN
+46,EXAS,Zanotti Katherine S,Director,Jun 30,Sale,40.13,1086.0,43581.0,60318.0,Jul 01 06:20 PM,EXK
+47,COO,Ricupati Agostino,"SVP, Finance & Chief Actg Off",Jul 01,Option Exercise,0.0,348.0,0.0,1901.0,Jul 01 06:12 PM,CP6
+48,AMPH,PETERS WILLIAM J,"CFO, EVP & Treasurer",Jun 30,Option Exercise,14.95,18386.0,274871.0,118866.0,Jul 01 06:08 PM,29A
+49,AMPH,PETERS WILLIAM J,"CFO, EVP & Treasurer",Jun 30,Sale,34.95,18386.0,642591.0,100480.0,Jul 01 06:08 PM,29A
+50,PANW,ZUK NIR,"EVP, Chief Technology Officer",Jul 01,Sale,501.62,12000.0,6019401.0,684273.0,Jul 01 06:05 PM,5AP
+51,CRSP,Kulkarni Samarth,Chief Executive Officer,Jun 29,Option Exercise,12.57,25000.0,314250.0,315279.0,Jul 01 06:00 PM,1CG
+52,CRSP,Kulkarni Samarth,Chief Executive Officer,Jun 29,Sale,61.59,25000.0,1539862.0,290279.0,Jul 01 06:00 PM,1CG
+53,PETQ,Oloughlin Sheryl,Director,Jun 29,Option Exercise,0.0,2245.0,0.0,3381.0,Jul 01 05:56 PM,39L
+55,AVAV,Shackley Brian Charles,"VP, Chief Accounting Officer",Jun 29,Option Exercise,0.0,242.0,0.0,3530.0,Jul 01 05:51 PM,JPX
+56,AVAV,Brown Melissa Ann,"VP, Gen. Counsel, Corp. Sec",Jun 29,Option Exercise,0.0,984.0,0.0,12321.0,Jul 01 05:50 PM,JPX
+57,AVAV,Nawabi Wahid,President and CEO,Jun 29,Option Exercise,0.0,6695.0,0.0,75764.0,Jul 01 05:49 PM,JPX
+59,BL,Unterman Thomas,Director,Jul 01,Option Exercise,5.0,1000.0,5000.0,50668.0,Jul 01 05:47 PM,02B
+60,BL,Unterman Thomas,Director,Jul 01,Sale,66.36,500.0,33180.0,50130.0,Jul 01 05:47 PM,02B
+67,MAC,COPPOLA EDWARD C,President,Jun 30,Buy,8.75,60000.0,525000.0,575739.0,Jul 01 05:33 PM,FHL
+68,VLDR,Hall David S.,Affiliate,Jul 01,Sale,0.83,2260160.0,1872995.0,0.0,Jul 01 05:27 PM,808
+71,LSCC,NELSON MARK JON,"SVP, Sales",May 19,Option Exercise,0.0,712.0,0.0,32414.0,Jul 01 05:17 PM,LTT
+76,XMTR,Rallo James M,Chief Financial Officer,Jun 30,Option Exercise,3.65,10000.0,36500.0,31687.0,Jul 01 05:15 PM,0N5
+77,XMTR,Rallo James M,Chief Financial Officer,Jun 30,Sale,33.56,10000.0,335619.0,21687.0,Jul 01 05:15 PM,0N5
+80,SQ,Henry Alyssa,Square Lead,Jun 29,Sale,63.47,30770.0,1953106.0,433543.0,Jul 01 05:07 PM,SQ3
+81,PI,DOSSETT JEFFREY,Chief Revenue Officer,Jul 01,Sale,57.9,500.0,28950.0,52795.0,Jul 01 05:05 PM,27J
+82,ORGO,Gillheeney Gary S.,President and CEO,Jun 30,Option Exercise,0.99,505050.0,500000.0,903292.0,Jul 01 05:03 PM,2PQ
+88,KDP,Milikin Maurice Anthony,Chief Supply Chain Officer,Jun 29,Buy,35.75,12979.0,463999.0,12979.0,Jul 01 04:58 PM,DP5
+91,NEM,Buese Nancy,EVP & CFO,Jun 30,Sale,61.5,10000.0,615000.0,39530.0,Jul 01 04:47 PM,NEM
+94,AMRS,KELSEY NICOLE,CHIEF LEGAL OFFICER- SECRETARY,Jun 30,Sale,1.8,94033.0,169419.0,63333.0,Jul 01 04:45 PM,3A01
+95,ED,Cawley Timothy,"Chairman, President & CEO",Jul 01,Buy,95.56,80.0,7645.0,18138.0,Jul 01 04:44 PM,EDC
+96,LHX,ZOISS EDWARD J,Pres. Space & Airborne Systems,Jun 29,Option Exercise,0.0,12888.0,0.0,29606.0,Jul 01 04:43 PM,HB4LHX
+97,LHX,Stackley Sean J,"Pres., Integrated Mission Sys.",Jun 29,Option Exercise,0.0,12888.0,0.0,18409.0,Jul 01 04:41 PM,HB4LHX
+98,PETQ,Walker Kenneth C.,Director,Jun 29,Option Exercise,0.0,1922.0,0.0,1922.0,Jul 01 04:40 PM,39L
+100,LHX,Brown William M,Executive Chair,Jun 29,Option Exercise,0.0,83055.0,0.0,261501.0,Jul 01 04:39 PM,HB4LHX
+101,LHX,KUBASIK CHRISTOPHER E,Chair and CEO,Jun 29,Option Exercise,0.0,48820.0,0.0,118129.0,Jul 01 04:37 PM,HB4LHX
+102,TWLO,Shipchandler Khozema,Chief Operating Officer,Jun 30,Sale,81.1,1765.0,143148.0,91454.0,Jul 01 04:36 PM,TWH
+103,LHX,MEHNERT DANA A,"Pres., Communication Systems",Jun 29,Option Exercise,0.0,12888.0,0.0,30073.0,Jul 01 04:35 PM,HB4LHX
+104,LHX,GIRARD JAMES P,"Vice President, HR",Jun 29,Option Exercise,0.0,6444.0,0.0,13347.0,Jul 01 04:32 PM,HB4LHX
+113,LHX,MIKUEN SCOTT T,Sr VP-General Counsel & Secy,Jun 29,Option Exercise,0.0,9668.0,0.0,54386.0,Jul 01 04:30 PM,HB4LHX
+114,EP,Mulacek Phil E,Director,Jun 29,Buy,10.58,18908.0,200001.0,2179929.0,Jul 01 04:29 PM,PIM
+115,EP,Mulacek Phil E,Director,Jun 30,Buy,11.56,44470.0,514051.0,2224399.0,Jul 01 04:29 PM,PIM
+116,NKE,ROGERS JOHN W JR,Director,Jun 30,Buy,102.96,10000.0,1029646.0,25681.0,Jul 01 04:24 PM,NKE
+117,EP,Pritchard Thomas W.,Chief Executive Officer,Jun 29,Sale,10.48,533.0,5585.0,276550.0,Jul 01 04:24 PM,PIM
+118,RWT,Robinson Dashiell I,President,Jul 01,Option Exercise,7.71,2850.0,21974.0,55225.0,Jul 01 04:17 PM,R2V
+119,RWT,Abate Christopher J,Chief Executive Officer,Jul 01,Option Exercise,7.71,7123.0,54918.0,205112.0,Jul 01 04:16 PM,R2V
+120,MRNA,Bancel Stephane,Chief Executive Officer,Jun 30,Option Exercise,0.99,40000.0,39600.0,5451946.0,Jul 01 04:16 PM,0QF
+121,MRNA,Bancel Stephane,Chief Executive Officer,Jun 29,Option Exercise,0.99,40000.0,39600.0,5451946.0,Jul 01 04:16 PM,0QF
+122,MRNA,Bancel Stephane,Chief Executive Officer,Jun 29,Sale,142.47,40000.0,5698798.0,5411946.0,Jul 01 04:16 PM,0QF
+123,MRNA,Bancel Stephane,Chief Executive Officer,Jun 30,Sale,143.21,40000.0,5728547.0,5411946.0,Jul 01 04:16 PM,0QF
+124,MRNA,Bancel Stephane,Chief Executive Officer,Jun 30,Sale,143.4,10000.0,1434000.0,6824880.0,Jul 01 04:16 PM,0QF
+125,KFS,Hansen Kent A,CFO & EVP,Jul 01,Buy,5.73,261.0,1496.0,91910.0,Jul 01 04:14 PM,HB7KFS
+126,KFS,Fitzgerald John Taylor Maloney,President and CEO,Jul 01,Buy,5.73,363.0,2080.0,1921580.0,Jul 01 04:13 PM,HB7KFS
+127,KFS,OAKMONT CAPITAL INC,10% Owner,Jun 29,Buy,5.67,25000.0,141652.0,2547708.0,Jul 01 04:12 PM,HB7KFS
+128,KFS,OAKMONT CAPITAL INC,10% Owner,Jun 30,Buy,5.67,28986.0,164388.0,2576694.0,Jul 01 04:12 PM,HB7KFS
+129,KFS,Hannon Gregory Paul,Director,Jun 29,Buy,5.67,25000.0,141652.0,2595458.0,Jul 01 04:11 PM,HB7KFS
+130,KFS,Hannon Gregory Paul,Director,Jun 30,Buy,5.67,28986.0,164388.0,2624444.0,Jul 01 04:11 PM,HB7KFS
+131,LEVI,JAFFE SETH,EVP & General Counsel,Jun 30,Sale,16.44,11948.0,196425.0,148299.0,Jul 01 04:11 PM,LV2B
+132,MASS,Turner Michael S.,"VP, General Counsel",Jun 29,Sale,20.03,5000.0,100150.0,0.0,Jul 01 04:11 PM,HAZ
+133,KFS,Kavanagh Terence Michael,Director,Jun 29,Buy,5.67,25000.0,141652.0,2582458.0,Jul 01 04:11 PM,HB7KFS
+134,KFS,Kavanagh Terence Michael,Director,Jun 30,Buy,5.67,28986.0,164388.0,2611444.0,Jul 01 04:11 PM,HB7KFS
+135,ENV,Crager William,Chief Executive Officer,Jun 29,Buy,53.79,920.0,49487.0,306241.0,Jul 01 04:10 PM,ENV
+138,MASS,Brown Christopher D.,Chief Technology Officer,Jun 29,Sale,20.22,16471.0,333044.0,942612.0,Jul 01 04:10 PM,HAZ
+139,MASS,Brown Christopher D.,Chief Technology Officer,Jun 30,Sale,20.12,3700.0,74444.0,938912.0,Jul 01 04:10 PM,HAZ
+142,FDS,Snow Frederick Philip,Chief Executive Officer,Jul 01,Option Exercise,164.9,2500.0,412250.0,6488.0,Jul 01 04:08 PM,1765374D
+143,FDS,Snow Frederick Philip,Chief Executive Officer,Jul 01,Sale,384.54,2500.0,961350.0,3988.0,Jul 01 04:08 PM,1765374D
+152,JHG,FOGO GEORGINA,Chief Risk Officer,Jul 01,Sale,23.29,10701.0,249185.0,101862.0,Jul 01 04:07 PM,HDJ
+155,TNXP,LEDERMAN SETH,Chief Executive Officer,Jun 29,Buy,1.71,20000.0,34200.0,24235.0,Jul 01 04:05 PM,TPM
+156,IDCC,Hakoranta Eeva K.,Chief Licensing Officer,Jun 30,Sale,61.44,1595.0,97997.0,20608.0,Jul 01 04:04 PM,IDI
+157,IBKR,Peterffy Thomas,Chairman,Jun 29,Sale,56.98,20000.0,1139600.0,2007511.0,Jul 01 04:04 PM,KY6
+158,IBKR,Peterffy Thomas,Chairman,Jun 30,Sale,55.32,20000.0,1106352.0,1987511.0,Jul 01 04:04 PM,KY6
+159,GNRC,Jagdfeld Aaron,Chief Executive Officer,Jul 01,Sale,213.81,5000.0,1069050.0,615975.0,Jul 01 04:04 PM,G84
+160,AGTC,Potter Stephen W,Chief Business Officer,Jul 01,Sale,0.77,8070.0,6250.0,55883.0,Jul 01 04:01 PM,2GT
+164,GIS,Walker Sean N,Group President,Jun 30,Option Exercise,38.15,29489.0,1125005.0,119478.0,Jul 01 03:27 PM,GIS
+165,GIS,Walker Sean N,Group President,Jun 30,Sale,75.0,29489.0,2211675.0,89989.0,Jul 01 03:27 PM,GIS
+166,MUR,LOONEY DAVID R,Retired,Jun 30,Option Exercise,0.0,49125.0,0.0,188480.0,Jul 01 03:27 PM,MUR
+167,GIS,Pallot Mark A,Chief Accounting Officer,Jun 30,Option Exercise,50.61,2255.0,114123.0,18385.0,Jul 01 03:24 PM,GIS
+168,GIS,Pallot Mark A,Chief Accounting Officer,Jun 30,Sale,74.66,2255.0,168358.0,17087.0,Jul 01 03:24 PM,GIS
+170,GIS,Bruce Kofi A,Chief Financial Officer,Jun 30,Option Exercise,38.15,10911.0,416255.0,64342.0,Jul 01 03:20 PM,GIS

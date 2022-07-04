@@ -4,22 +4,19 @@ from dotenv import load_dotenv
 from pytz import utc
 import os
 
-
 from insider_trades.handlers.figi import FigiAPI
 from insider_trades.handlers.finviz import FinVizAPI
-from insider_trades.handlers.lemon import LemonMarketsAPI
 
 from insider_trades.transactions import Transactions
 from insider_trades.helpers import Helpers
 
 load_dotenv()
+helpers: Helpers = Helpers()
 
 
 def inside_trades():
-    lemon_api: LemonMarketsAPI = LemonMarketsAPI()
     figi_api: FigiAPI = FigiAPI()
     finviz_api: FinVizAPI = FinVizAPI()
-    helpers: Helpers = Helpers(lemon_api)
 
     # COMMENT FROM HERE...
     transactions: Transactions = finviz_api.get_transactions()
@@ -38,18 +35,35 @@ def inside_trades():
 
     buy, sell = transactions.get_trade_decisions()
     orders = helpers.place_trades(buy, sell)
-    helpers.activate_order(orders)
+    helpers.activate_orders(orders)
+
+
+def schedule_trades_for_year():
+    opening_days = helpers.get_opening_days()
+
+    for i in range(len(opening_days)):
+        scheduler.add_job(inside_trades,
+                          trigger=CronTrigger(month=opening_days[i].month,
+                                              day=opening_days[i].day,
+                                              hour=13,
+                                              minute=9,
+                                              timezone=utc))
 
 
 if __name__ == '__main__':
     scheduler = BlockingScheduler(timezone=utc)
 
-    scheduler.add_job(inside_trades,
-                      trigger=CronTrigger(day_of_week="mon-fri",
-                                          hour=10,
-                                          minute=30,
-                                          timezone=utc),
-                      name="Perform inside trades")
+    inside_trades()
+    schedule_trades_for_year()
+
+    # reschedule your trades for the future years ad infinitum
+    scheduler.add_job(schedule_trades_for_year,
+                      trigger=CronTrigger(month=1,
+                                          day=1,
+                                          hour=0,
+                                          minute=0,
+                                          timezone=utc))
+
     print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C'))
 
     try:

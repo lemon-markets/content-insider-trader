@@ -31,7 +31,8 @@ class Transactions:
         for index, row in self._df.iterrows():
             transaction_type = row["Transaction"]
             relationship = row["Relationship"]
-
+            if row["Total Shares"] == 0:
+                continue
             # if insider buys large amount, we also want to buy
             if transaction_type == "Buy" and (relationship in trusted_relationships or "Officer" in relationship):
                 if row["Number of Shares"] / row["Total Shares"] > 0.01:  # trade >1% of total shares
