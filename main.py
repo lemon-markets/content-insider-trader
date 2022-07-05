@@ -17,7 +17,11 @@ helpers: Helpers = Helpers()
 def inside_trades():
     figi_api: FigiAPI = FigiAPI()
     finviz_api: FinVizAPI = FinVizAPI()
-
+    venue = helpers.client.market_data.venues.get(os.getenv('MIC')).results[0]
+    if not venue.is_open:
+        print(f"Venue is not open. Next opening day is {venue.opening_days[0].day}-{venue.opening_days[0].month}"
+              f"-{venue.opening_days[0].year}")
+        return
     # COMMENT FROM HERE...
     transactions: Transactions = finviz_api.get_transactions()
 
@@ -38,30 +42,14 @@ def inside_trades():
     helpers.activate_orders(orders)
 
 
-def schedule_trades_for_year():
-    opening_days = helpers.get_opening_days()
-
-    for i in range(len(opening_days)):
-        scheduler.add_job(inside_trades,
-                          trigger=CronTrigger(month=opening_days[i].month,
-                                              day=opening_days[i].day,
-                                              hour=13,
-                                              minute=9,
-                                              timezone=utc))
-
-
 if __name__ == '__main__':
     scheduler = BlockingScheduler(timezone=utc)
-
-    inside_trades()
-    schedule_trades_for_year()
-
+    
     # reschedule your trades for the future years ad infinitum
-    scheduler.add_job(schedule_trades_for_year,
-                      trigger=CronTrigger(month=1,
-                                          day=1,
-                                          hour=0,
-                                          minute=0,
+    scheduler.add_job(inside_trades(),
+                      trigger=CronTrigger(day="mon-fri",
+                                          hour=10,
+                                          minute=30,
                                           timezone=utc))
 
     print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C'))
