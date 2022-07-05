@@ -45,7 +45,6 @@ def inside_trades():
 if __name__ == '__main__':
     scheduler = BlockingScheduler(timezone=utc)
 
-    inside_trades()
     # reschedule your trades for the future years ad infinitum
     scheduler.add_job(inside_trades,
                       trigger=CronTrigger(day_of_week="mon-fri",
