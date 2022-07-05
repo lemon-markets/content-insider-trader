@@ -45,11 +45,12 @@ def inside_trades():
 if __name__ == '__main__':
     scheduler = BlockingScheduler(timezone=utc)
 
+    inside_trades()
     # reschedule your trades for the future years ad infinitum
     scheduler.add_job(inside_trades,
                       trigger=CronTrigger(day_of_week="mon-fri",
-                                          hour=13,
-                                          minute=18,
+                                          hour=10,
+                                          minute=30,
                                           timezone=utc))
 
     print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C'))
