@@ -27,15 +27,14 @@ lemon.markets is a brokerage API by developers for developers that allows you to
 
 The script uses several environment variables, configure your .env file as follows:
 
-```python
-MIC=XMUN
-TRADING_URL=https://paper-trading.lemon.markets/rest/v1/
-MARKET_URL=https://data.lemon.markets/v1/
-API_KEY=<your-api-key>
-OPENFIGI_URL=https://api.openfigi.com/v3/search/
-OPENFIGI_KEY=<your-open-figi-key>
-```
-Please provide your unique `API_KEY` and `OPENFIGI_KEY`.
+
+| Environment Variable | Description                             |
+|----------------------|-----------------------------------------|
+| MIC                  | Market Identifier Code of Trading Venue |
+| TRADING_API_KEY      | Your Trading API Key                    |
+| DATA_API_KEY         | Your Market Data API Key                |
+| OPENFIGI_URL         | https://api.openfigi.com/v3/search/     |
+ | OPENFIGI_KEY         | Your Open FIGI Key                      |
 
 ## ❓ What's happening under the hood?
 ### 📊 Collecting Data

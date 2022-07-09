@@ -4,23 +4,24 @@ from dotenv import load_dotenv
 from pytz import utc
 import os
 
-
 from insider_trades.handlers.figi import FigiAPI
 from insider_trades.handlers.finviz import FinVizAPI
-from insider_trades.handlers.lemon import LemonMarketsAPI
 
 from insider_trades.transactions import Transactions
 from insider_trades.helpers import Helpers
 
 load_dotenv()
+helpers: Helpers = Helpers()
 
 
 def inside_trades():
-    lemon_api: LemonMarketsAPI = LemonMarketsAPI()
     figi_api: FigiAPI = FigiAPI()
     finviz_api: FinVizAPI = FinVizAPI()
-    helpers: Helpers = Helpers(lemon_api)
-
+    venue = helpers.client.market_data.venues.get(os.getenv('MIC')).results[0]
+    if not venue.is_open:
+        print(f"Venue is not open. Next opening day is {venue.opening_days[0].day}-{venue.opening_days[0].month}"
+              f"-{venue.opening_days[0].year}")
+        return
     # COMMENT FROM HERE...
     transactions: Transactions = finviz_api.get_transactions()
 
@@ -38,18 +39,19 @@ def inside_trades():
 
     buy, sell = transactions.get_trade_decisions()
     orders = helpers.place_trades(buy, sell)
-    helpers.activate_order(orders)
+    helpers.activate_orders(orders)
 
 
 if __name__ == '__main__':
     scheduler = BlockingScheduler(timezone=utc)
 
+    # reschedule your trades for the future years ad infinitum
     scheduler.add_job(inside_trades,
                       trigger=CronTrigger(day_of_week="mon-fri",
                                           hour=10,
                                           minute=30,
-                                          timezone=utc),
-                      name="Perform inside trades")
+                                          timezone=utc))
+
     print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C'))
 
     try:
